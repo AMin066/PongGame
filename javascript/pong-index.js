@@ -99,7 +99,6 @@ function gameProcess() {
   if (rightScoreHigher.state && rightScoreHigher.changed) {
     adventureMusic.play();
     villageMusic.stop();
-    ambientSound.stop(); //new
   }
   if (leftScoreHigher.state && leftScoreHigher.changed) {
     villageMusic.play();
