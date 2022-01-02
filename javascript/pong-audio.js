@@ -48,6 +48,8 @@ soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("Paddle_sound.mp3");
 soundArray.push(paddleSound);
+//test
+paddleSound.player.volume.value = +5;
 
 export var scoreSound = new soundFile("tap-percussive.mp3");
 soundArray.push(scoreSound);
