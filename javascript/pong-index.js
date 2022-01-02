@@ -96,6 +96,7 @@ function gameProcess() {
   if (rightScoreHit.state) {
     scoreSound.play();
   }
+  /*
   //this is a persistant event so it must be checked and checked if it changed
   if (rightScoreHigher.state && rightScoreHigher.changed) {
     adventureMusic.play();
@@ -107,6 +108,7 @@ function gameProcess() {
     adventureMusic.stop();
     ambientSound.stop(); //new
   }
+  */
 }
 
 ///////////////////////////////////////////////////////////////
