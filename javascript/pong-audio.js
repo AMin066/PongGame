@@ -48,13 +48,11 @@ soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("Paddle_sound.mp3");
 soundArray.push(paddleSound);
-//test
-paddleSound.player.volume.value = +5;
 
 export var scoreSound = new soundFile("tap-percussive.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("alwaysdestroythethingsilove3-0.ogg");
+export var ambientSound = new soundFile("alwaysdestroythethingsilove2-0.ogg");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
@@ -64,7 +62,7 @@ soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("alwaysdestroythethingsilove3-0.ogg");
+export var villageMusic = new soundFile("alwaysdestroythethingsilove2-0.ogg");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
